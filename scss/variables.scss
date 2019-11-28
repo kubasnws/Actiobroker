@@ -2,6 +2,10 @@ $buttonColor: hsl(18, 86%, 49%);
 $mainYellow: hsl(40, 100%, 49%);
 $pColor: hsl(240, 2%, 26%);
 
+@function mainYellow($opacity) {
+    @return hsla(40, 100%, 49%, $opacity)
+}
+
 // FONTS 
 $poppins: "Poppins",
 sans-serif;

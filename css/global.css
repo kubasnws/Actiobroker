@@ -1,5 +1,8 @@
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-margin-top: -30px;
+  overflow-x: hidden; }
   @media (max-width: 992px) {
     html {
       font-size: 50%; } }
@@ -52,7 +55,7 @@ h4 {
     text-transform: uppercase; }
 
 p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   letter-spacing: 1px;
   line-height: 3.3rem;
   color: #414144;

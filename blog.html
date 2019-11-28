@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+        integrity="sha256-DBYdrj7BxKM3slMeqBVWX2otx7x4eqoHRJCsSDJ0Nxw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Actiobroker</title>
+</head>
+
+<body>
+
+    <div class="main-full-menu-box">
+        <img class="logo" src="./img/logo.png" alt="Logo">
+        <div class="main-content">
+            <div class="navigation">
+                <ul id="links">
+                    <li>
+                        <h3><a href="#">ActioBroker</a></h3>
+                        <h3><a href="#offer">Oferta</a></h3>
+                        <h3><a href="#">Spacer wizualny</a></h3>
+                        <h3><a href="#">Aktualności</a></h3>
+                        <h3><a href="#">Blog</a></h3>
+                        <h3><a href="#">Kariera</a></h3>
+                        <h3><a href="#footer">Kontakt</a></h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <p>Skontaktuj się!</p>
+                <i></i>
+                <div class="number"><a href="tel:523003340"><b>52 300 33 40</b></a></div>
+            </div>
+            <div class="time">
+                <div class="days">pn-pt</div>
+                <div class="hours">08:00 - 16:00</div>
+            </div>
+            <div class="languages">
+                <div class="lang">
+                    <a href="#"></a>
+                    pl
+                    <img src="./img/pl.svg" alt="Flag">
+                </div>
+                <div class="lang">
+                    <a href="#"></a>
+                    en
+                    <img src="./img/en.svg" alt="Flag">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="burger-menu disactive">
+                <div class="burger-button">
+                    <svg height="44" width="44">
+                        <circle class="circle" cx="22" cy="22" r="20" stroke="hsl(40, 100%, 49%)" stroke-width="2"
+                            fill-opacity="0" />
+                    </svg>
+                    <div class="burger-box">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="big-menu">
+                <div class="top">
+                    <div class="nav-box">
+                        <div class="phone">
+                            <p>Skontaktuj się!</p>
+                            <i></i>
+                            <div class="number"><span class="orange">52</span> 300 33 40</div>
+                        </div>
+                        <div class="right">
+                            <div class="time">
+                                <div class="days">pn-pt</div>
+                                <div class="hours">08:00 - 16:00</div>
+                            </div>
+                            <div class="languages">
+                                <div class="lang">
+                                    <a href="#"></a>
+                                    pl
+                                    <img src="./img/pl.svg" alt="Flag">
+                                </div>
+                                <div class="lang">
+                                    <a href="#"></a>
+                                    en
+                                    <img src="./img/en.svg" alt="Flag">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bottom">
+                    <div class="nav-box">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="./img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="links">
+                            <ul>
+                                <li class="element"><a href="#">ActioBroker</a></li>
+                                <li class="element">
+                                    <a href="#offer">Oferta</a>
+                                    <ul class="nav-drop">
+                                        <li class="nav-drop-item">
+                                            <a href="#">{{ child.title }}</a>
+                                        </li>
+                                        <li class="nav-drop-item">
+                                            <a href="#">{{ child.title }}</a>
+                                        </li>
+                                        <li class="nav-drop-item">
+                                            <a href="#">{{ child.title }}</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="element"><a href="#">Spaer wizualny</a></li>
+                                <li class="element"><a href="#">Aktualności</a></li>
+                                <li class="element active"><a href="#">Blog</a></li>
+                                <li class="element"><a href="#">Kariera</a></li>
+                                <li class="element"><a href="#footer">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="banner" style="background-image: url('../img/Krzywe 8.jpg')">
+        <div class="banner-card">
+            <p><b>Tworzymy profesjonalny</b></p>
+            <h3>zespół</h3>
+            <h3><span class="orange">brokerów</span></h3>
+            <p>przygotowany do współpracy z najbardziej wymagającymi klientami!</p>
+            <a href="" class="mainButton">sprawdź ofertę</a>
+        </div>
+    </section>
+
+    <section class="blog-template">
+
+        <h1>Najnowsze wpisy</h1>
+
+        <div class="posts-container">
+            <div class="post">
+                <div class="img-box" style="background-image: url(https://picsum.photos/300/200)"> <a href="#"></a>
+                </div>
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="" class="mainButton">zobacz!</a>
+                <p class="small-text">12.03.2016</p>
+            </div>
+            <div class="post">
+                <div class="img-box" style="background-image: url(https://picsum.photos/300/200)"> <a href="#"></a>
+                </div>
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non eros placerat</p>
+                <a href="" class="mainButton">zobacz!</a>
+            </div>
+            <div class="post">
+                <div class="img-box" style="background-image: url(https://picsum.photos/300/200)"> <a href="#"></a>
+                </div>
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="" class="mainButton">zobacz!</a>
+            </div>
+            <div class="post">
+                <div class="img-box" style="background-image: url(https://picsum.photos/300/200)"> <a href="#"></a>
+                </div>
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="" class="mainButton">zobacz!</a>
+            </div>
+            <div class="post">
+                <div class="img-box" style="background-image: url(https://picsum.photos/300/200)"> <a href="#"></a>
+                </div>
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="" class="mainButton">zobacz!</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <div class="left">
+            <div class="img-wrapper">
+                <img src="./img/logo.png" alt="">
+
+            </div>
+        </div>
+        <div class="right" style="background-image: url(./img/footer_back.png)">
+            <div class="wrapper">
+                <div class="infos">
+                    <h3>Szybki</h3>
+                    <h3><span>kontakt</span></h3>
+                    <div class="contact-inside">
+                        <h5>ActioBroker Sp. z o.o.</h5>
+                        <div class="wrapper">
+                            <div class="left">
+                                <ul>
+                                    <li><i class="fas fa-home"></i></li>
+                                    <li><i class="fas fa-phone"></i></li>
+                                    <li><i class="far fa-envelope"></i></li>
+
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <ul>
+                                    <li>ul. Gdańska 139; 85-022 Bydgoszcz </li>
+                                    <a href="tel:777 888 555">
+                                        <li>tel: 52 322 33 40; fax 52 376 03 30</li>
+                                    </a>
+                                    <a href="mailto:info@carspa.pl">
+                                        <li>sekretariat@actiobroker.pl; i.frydryszek@actiobroker.pl</li>
+                                    </a>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ButtPlug">
+                        <a href="" class="mainButton">formularz kontaktowy</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.524808441492!2d18.012073315925264!3d53.13667529809635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4703137a153a7c37%3A0x9450caae3afd5a09!2sActioBROKER%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1574856144276!5m2!1spl!2spl"
+                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </footer>
+    <div class="footer-small">
+        <div class="wrapper">
+            <div class="box">
+                <p>copyrights <b>2019</b></p>| <a href="/polityka-prywatnosci/">
+                    <p>polityka prwyatności</p>
+                </a>
+            </div>
+            <div class="box">
+                <p>created by <a href="https://www.snws.pl"><b>s<span>nw</span>s.</b></a></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"
+    integrity="sha256-4sETKhh3aSyi6NRiA+qunPaTawqSMDQca/xLWu27Hg4=" crossorigin="anonymous"></script>
+<script src="./js/prototypes.js"></script>
+<script src="./js/app.js"></script>
+
+</html>
