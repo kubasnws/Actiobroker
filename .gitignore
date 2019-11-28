@@ -1,0 +1,6 @@
+# Ignore folder named 'Materialy'
+Materialy/
+# Ignore folder named 'actiobroker'
+actiobroker/
+# Ignore folder named 'node_modules'
+node_modules/

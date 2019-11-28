@@ -1,0 +1,29 @@
+a.mainButton {
+  display: block;
+  position: relative;
+  padding: 18px 45px;
+  color: #e85211;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: fit-content; }
+  a.mainButton::before, a.mainButton::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    background-color: #faa700;
+    transition: .2s ease-in-out; }
+  a.mainButton:before {
+    top: 0;
+    left: 0; }
+  a.mainButton:after {
+    bottom: 0;
+    right: 0; }
+  a.mainButton:hover::before {
+    transform: translate(60%, 5px); }
+  a.mainButton:hover::after {
+    transform: translate(-60%, -5px); }

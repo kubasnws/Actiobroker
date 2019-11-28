@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+// ! BUTTON
+
+a.mainButton {
+    display: block;
+    position: relative;
+    padding: 18px 45px;
+    color: $buttonColor;
+    letter-spacing: 1px;
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: fit-content;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: 60%;
+        height: 3px;
+        background-color: $mainYellow;
+        transition: .2s ease-in-out;
+    }
+
+    &:before {
+        top: 0;
+        left: 0;
+    }
+
+    &:after {
+        bottom: 0;
+        right: 0;
+    }
+
+    &:hover::before {
+        transform: translate(60%, 5px)
+    }
+
+    &:hover::after {
+        transform: translate(-60%, -5px)
+    }
+}

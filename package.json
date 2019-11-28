@@ -1,0 +1,15 @@
+{
+  "name": "actiobroker",
+  "version": "1.0.0",
+  "description": "New Actiobroker site.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified ;(\" && exit 1",
+    "scss": "node-sass -w scss -o css"
+  },
+  "author": "SNWS",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
